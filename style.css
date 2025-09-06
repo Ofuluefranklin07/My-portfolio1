@@ -1,0 +1,98 @@
+
+
+
+body{
+    background-color: rgb(255, 255, 255);}
+    
+
+
+nav{
+    background: linear-gradient(135deg, #B1D4E0,  #2E8BC0)
+}
+.title{
+    color:  #0C2D48;
+    font-weight: bolder;
+    font-size: larger;
+}
+#about{
+    margin-top: -40px;
+
+}
+.nav-item{
+    list-style: none;
+
+}
+
+.nav-link{
+    
+    color: white;
+    border-radius: 6px;
+    
+}
+.nav-link:hover{
+    background-color: #2E8BC0;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+#hero{
+    background-image: url(./IMG_20250601_124420_472.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.profile-img{
+    height: auto;
+    width: 200px;
+    background-color: #1e30f3;
+    border-radius: 40%;
+    
+    
+}
+.img-fluid{
+    height: 300px;
+    width: 200px;
+}
+.btn-success{
+    background-color: #0C2D48;
+}
+.btn-success:hover{
+    background-color:  #2E8BC0;
+}
+
+.projects{
+    color: rgba(202, 2, 202, 0.76)
+}
+@media (max-width: 768px){
+    .profile-img{
+        height: 470px;
+        width: 400px;
+
+    }
+    #hero{
+        
+        background-position: top center;
+        height: 400px;
+    }
+}
+
+.text-gradient{
+    color: #0C2D48;
+}
+.text-primary{
+    color: #2E8BC0;
+}
+.btn-primary{
+    background-color: #2E8BC0;
+}
+.bg-primary{
+    background: linear-gradient(135deg, #B1D4E0,  #2E8BC0)
+}
+footer{
+    background: linear-gradient(-135deg, #B1D4E0, #2E8BC0);
+}
+.my-button{
+    background-color: #0C2D48;
+    color: white;
+}
